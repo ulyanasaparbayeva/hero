@@ -25,6 +25,7 @@
 }
 
 .nav {
+  padding-top: 23px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -163,7 +164,6 @@
 
 @media only screen and (max-width: 768px) {
   .hero__content {
-    padding: 0px 40px 0px 40px;
     background-image: url(../img/Background.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,7 +186,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .nav__btn {
     display: none;
   }
@@ -194,7 +194,6 @@
     display: block;
   }
   .hero__content {
-    padding: 0px 16px 0px 16px;
     background-image: url(../img/Background-_1_.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -212,6 +211,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .background__images {
+    width: 100%;
+    background-image: url(../img/mobile-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .websites {
+    padding-top: 20px;
   }
 }
 .about {

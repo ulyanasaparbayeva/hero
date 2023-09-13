@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+
+
+
+.background__images {
+  width: 100%;
+  background-image: url(../img/Background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__content {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unordered__list {
+  list-style: none;
+  display: flex;
+  gap: 0 54px;
+}
+
+.link {
+  text-decoration: none;
+  color: #A9A9AA;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.link1 {
+  text-decoration: none;
+  color: #FE390C;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav__btn {
+  color: #FE390C;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 12px 16px 12px 16px;
+  border: #FE390C 1px solid;
+  border-radius: 4px;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.nav__btn:hover {
+  transform: scale(1.1);
+  background-color: cornflowerblue;
+}
+
+.greeting {
+  color: #FE390C;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.96px;
+}
+
+.changable__text {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.96px;
+}
+
+.extra__btn {
+  display: none;
+}
+
+.main__name {
+  color: #FFF;
+  font-family: "Anton", sans-serif;
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 154px;
+  letter-spacing: 1.95px;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.profession {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 24px;
+  letter-spacing: -0.64px;
+}
+
+.hero__btn {
+  color: #FFF;
+  font-family: "Anton", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 4px;
+  background: #FE390C;
+  border: none;
+  padding: 16px 24px;
+  transition: 0.5s;
+}
+
+.hero__btn:hover {
+  background-color: cornflowerblue;
+  transform: scale(0.9);
+}
+
+.websites {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img__icon {
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+}
+
+.hero__wrapper {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 243px;
+  padding-bottom: 225px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__content {
+    padding: 0px 40px 0px 40px;
+    background-image: url(../img/Background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main__name {
+    color: #FFF;
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 134px;
+    letter-spacing: 1.95px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .unordered__list {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav__btn {
+    display: none;
+  }
+  .extra__btn {
+    display: block;
+  }
+  .hero__content {
+    padding: 0px 16px 0px 16px;
+    background-image: url(../img/Background-_1_.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main__name {
+    color: #FFF;
+    font-family: "Anton", sans-serif;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.87px;
+    text-transform: uppercase;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.about {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 86px;
+}
+
+.about_title {
+  gap: 61px;
+}
+
+.about_img {
+  width: 230px;
+  height: 256.58px;
+  padding-bottom: 31px;
+}
+
+.about_text {
+  color: #111214;
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+  padding-top: 32px;
+}
+
+.about_text_1 {
+  color: #FE390C;
+  font-family: "Anton", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+}
+
+.about_year {
+  font-family: "Anton", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  color: #FE390C;
+}
+
+.about_text {
+  color: #111214;
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+  padding-top: 32px;
+}
+
+.about_minim {
+  font-family: "Montserrat", sans-serif;
+  width: 429px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.28px;
+}
+
+.about_me {
+  color: #FE390C;
+  font-family: "Anton", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.about_me_1 {
+  color: #111214;
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.github_box {
+  width: 1440px;
+  height: 310px;
+  background: #A9A9AA;
+  position: absolute;
+}
+
+.github_img {
+  display: flex;
+  gap: 89px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 88px;
+}
+
+.work_box {
+  width: 1140px;
+  height: 335px;
+  border-radius: 2px;
+  background: #111214;
+}/*# sourceMappingURL=main.css.map */
